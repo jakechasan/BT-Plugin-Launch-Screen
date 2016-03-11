@@ -1,0 +1,31 @@
+//buzztouch plugin info
+uniquePluginId: JC_LaunchScreen
+displayAs: Launch Screen
+category: Menu
+loadClassOrActionName: JC_LaunchScreen
+hasChildItems: No
+supportedDevices: ios
+
+//author info
+authorName: Jake Chasan
+authorEmail: jappdesign@icloud.com
+authorBuzztouchURL: https://www.buzztouch.com/Jake Chasan
+authorWebsiteURL: http://www.jakechasan.com
+authorTwitterURL: http://twitter.com/jakechasan
+authorFacebookURL: https://www.facebook.com/jakechasan
+authorLinkedInURL: 
+authorYouTubeURL: 
+
+//version info
+versionNumber: 1.1
+versionString: v1.1
+updateURL: https://www.buzztouch.com/plugins/update.php?pid=8901C4D9F816959026BE5D9
+downloadURL: https://www.buzztouch.com/plugins/download.php?pid=8901C4D9F816959026BE5D9
+
+//default json data
+defaultJSONData:
+{"itemNickname": "[itemNickname]", "itemType": "JC_LaunchScreen"}
+
+//description for control panel. Up to 250 characters. No HTML.
+shortDescription:
+This plugin loads a different screen for iPhone 3.5 inch, iPhone 4.0 inch, and iPad. It also can load different screens based on the iOS Versions, delay the launch of screens, lock a screen until a certain date, and display no screen.

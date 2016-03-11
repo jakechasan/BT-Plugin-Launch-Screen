@@ -1,0 +1,27 @@
+<!-- ##################################################### -->                   
+<!-- ############### Load Screen Type ################### -->
+
+<div class='cpExpandoBox colorLightBg' id="section_promptSettings">
+    <a href='#' onClick="fnTogglePropertyBox('box_promptSettings');return false;"><img src='../../images/arr_right.gif' alt='arrow' />Load Screen Type</a>
+    <div id="box_promptSettings" style="display:box;">
+
+            <br />
+            <b>Load Screen Type: </b>No Screen will not load a screen, this is ideal for adding menu items which do not lead anywhere. Launch Screen loads a different plugin for each screen type.<br/>
+                            <select name="json_launchScreen" id="json_launchScreen" style="width:225px;">
+                                <option value="">Select</option>
+                                <option value="0">No Screen</option>
+                                <option value="1">Launch Screen</option>
+                            </select>
+
+<br />
+        <div class='boxButton'>
+            <input type='button' title="save" value="save" align='absmiddle' class="buttonSubmit" onClick="saveAdvancedProperty('saveResult_promptSettings');return false;">
+            <div id="saveResult_promptSettings" class="submit_working">&nbsp;</div>
+        </div>
+            
+    </div> 
+    
+</div>
+
+<!-- ############### end Load Screen Type ############### -->
+<!-- ##################################################### -->

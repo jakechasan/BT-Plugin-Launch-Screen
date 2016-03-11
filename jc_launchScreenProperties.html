@@ -1,0 +1,92 @@
+<!-- ##################################################### -->                   
+<!-- ############### Load Screen Properties ################### -->
+<div class='cpExpandoBox colorLightBg' id="section_loadScreenProperties">
+    <a href='#' onClick="fnTogglePropertyBox('box_loadScreenProperties');return false;"><img src='../../images/arr_right.gif' alt='arrow' />Load Screen Properties</a>
+    <div id="box_loadScreenProperties" style="display:box;">
+        
+        <div style='padding-top:10px;'>
+            
+            <div style='margin-bottom:10px;'>Configure which screens you would like to load. If iPhone 4.0 Inch is blank, it will load the screen specified for the iPhone 3.5 Inch.</div>
+
+                <table width="752" style='margin-top:10px;'>
+                    <tr>
+                      <td style='vertical-align:top;white-space:nowrap;'>
+                            <b>iPhone 3.5 Inch Screen:</b><br/>
+                      <br/></td>
+                        	<td style='vertical-align:top;white-space:nowrap;'><b> Load Screen (Optional)</b>         
+                            <a href="#" onClick="fnPickScreen('json_iPhone35LoadScreenID', 'json_iPhone35LoadScreenNickname');return false;"><img src="../../images/arr_right.gif" alt="arrow"/>Select</a>
+                            <br/>
+                            <input type="text" name="json_iPhone35LoadScreenNickname" id="json_iPhone35LoadScreenNickname" value="" style="width:225px;">
+                            <input type="hidden" name="json_iPhone35LoadScreenID" id="json_iPhone35LoadScreenID" value="">
+                
+                      	</td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b>Screen Transition Type</b><br/>
+                            <select name="json_iPhone35LoadScreenTransitionType" id="json_iPhone35LoadScreenTransitionType" style="width:225px;">
+                                <option value="">Default transition</option>
+                                <option value="fade">Fade</option>
+                                <option value="flip">Flip</option>
+                                <option value="curl">Curl</option>
+                                <option value="grow">Grow</option>
+                                <option value="slideUp">Slide Up</option>
+                                <option value="slideDown">Slide Down</option>
+                            </select>
+                            		</p>
+                            </td>
+                            <tr>
+                            <td style='vertical-align:top;white-space:nowrap;'>
+                                <p><b>iPhone 4.0 Inch Screen:</b></p>
+                                <p>
+                                </p>
+                                </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b> Load Screen (Optional)</b>         
+                                    <a href="#" onClick="fnPickScreen('json_iPhone40LoadScreenID', 'json_iPhone40LoadScreenNickname');return false;"><img src="../../images/arr_right.gif" alt="arrow"/>Select</a>
+                                <br/>
+                                <input type="text" name="json_iPhone40LoadScreenNickname" id="json_iPhone40LoadScreenNickname" value="" style="width:225px;">
+                                <input type="hidden" name="json_iPhone40LoadScreenID" id="json_iPhone40LoadScreenID" value="">
+                            </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b>Screen Transition Type</b><br/>
+                                <select name="json_iPhone40LoadScreenTransitionType" id="json_iPhone40LoadScreenTransitionType" style="width:225px;">
+                                    <option value="">Default transition</option>
+                                    <option value="fade">Fade</option>
+                                    <option value="flip">Flip</option>
+                                    <option value="curl">Curl</option>
+                                    <option value="grow">Grow</option>
+                                    <option value="slideUp">Slide Up</option>
+                                    <option value="slideDown">Slide Down</option>
+                                </select>
+                                    </p>
+                            </td>
+                        </tr>
+                            <td style='vertical-align:top;white-space:nowrap;'>
+                    
+                                <b>iPad Screen</b>:<br/>
+                              </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b> Load Screen (Optional)</b>         
+                                    <a href="#" onClick="fnPickScreen('json_iPadLoadScreenID', 'json_iPadLoadScreenNickname');return false;"><img src="../../images/arr_right.gif" alt="arrow"/>Select</a>
+                                <br/>
+                                <input type="text" name="json_iPadLoadScreenNickname" id="json_iPadLoadScreenNickname" value="" style="width:225px;">
+                                <input type="hidden" name="json_iPadLoadScreenID" id="json_iPadLoadScreenID" value="">
+                            </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b>Screen Transition Type</b><br/>
+                                <select name="json_iPadLoadScreenTransitionType" id="json_iPadLoadScreenTransitionType" style="width:225px;">
+                                    <option value="">Default transition</option>
+                                    <option value="fade">Fade</option>
+                                    <option value="flip">Flip</option>
+                                    <option value="curl">Curl</option>
+                                    <option value="grow">Grow</option>
+                                    <option value="slideUp">Slide Up</option>
+                                    <option value="slideDown">Slide Down</option>
+                                </select>
+                                    </p>
+                        		</td>
+                
+                                  </table>
+        </div>
+        <div class='boxButton'>
+            <input type='button' title="save" value="save" class="buttonSubmit" onClick="saveJSONProperties('saveResult_loadScreenProperties');return false;">
+            <div id="saveResult_loadScreenProperties" class="submit_working">&nbsp;</div>
+        </div>
+    </div>    
+</div>
+<!-- ############### end Load Screen Properties ############### -->
+<!-- ##################################################### --> 

@@ -1,0 +1,39 @@
+
+
+<!-- ##################################################### -->                   
+<!-- ############### Launch Wait for Date property ################### -->
+<div class='cpExpandoBox colorLightBg' id="section_launchWaitForDate">
+    <a href='#' onClick="fnTogglePropertyBox('box_launchWaitForDate');return false;"><img src='../../images/arr_right.gif' alt='arrow' />Launch Wait for Date</a>
+    <div id="box_launchWaitForDate" style="display:none;">            
+
+<br />
+            <b>Launch Wait for Date: </b>Use this option to set a date when you would like users to be able to enter the desired screen. You can configure the Alert Title and Alert Message presented if the date has not passed<br/>
+
+                            <select name="json_launchWaitForDate" id="json_launchWaitForDate" style="width:225px;">
+                                <option value="">Select</option>
+                                <option value="0">Do Not Wait for Date</option>
+                                <option value="1">Wait for Date</option>
+                            </select>
+
+
+<br><br>            
+<b>Date</b> - Must be formatted as 11-25-13: (Example: If 12-25-13 is entered, users will be allowed to use the screen on the 25th)<br/>
+      <input type="text" name="json_launchDateSet" id="json_launchDateSet" value="">
+
+            <br>
+            <b>Alert Title: </b>(Default: Check Back Later)<br/>
+      <input type="text" name="json_launchDateAlertTitle" id="json_launchDateAlertTitle" value="">
+
+            <br>
+            <b>Alert Message: </b>(Default: This screen will be availible soon.)<br/>
+      <input type="text" name="json_launchDateAlertMessage" id="json_launchDateAlertMessage" value="">
+
+      <div class='boxButton'>
+          <input type='button' title="save" value="save" align='absmiddle' class="buttonSubmit" onClick="saveAdvancedProperty('saveResult_launchWaitForDate');return false;">
+          <div id="saveResult_launchWaitForDate" class="submit_working">&nbsp;</div>
+        </div>
+            
+    </div>    
+</div>
+<!-- ############### end Launch Wait for Date property ############### -->
+<!-- ##################################################### -->

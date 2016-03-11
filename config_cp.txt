@@ -1,0 +1,11 @@
+{"propertySections":[
+	{"fileType":"custom", "fileName":"jc_launchScreenType.html"},
+	{"fileType":"custom", "fileName":"jc_launchScreenProperties.html"},
+	{"fileType":"custom", "fileName":"jc_launchScreenDelay.html"},
+	{"fileType":"custom", "fileName":"jc_launchScreenPropertiesSpecifiedVersion.html"},
+	{"fileType":"custom", "fileName":"jc_launchWaitForDate.html"},
+	{"fileType":"bt_section", "fileName":"btSection_login.html"},
+	{"fileType":"bt_section", "fileName":"btSection_search.html"},
+	{"fileType":"bt_section", "fileName":"btSection_screenJson.html"}	
+	]
+}

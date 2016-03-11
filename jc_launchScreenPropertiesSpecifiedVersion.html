@@ -1,0 +1,97 @@
+<!-- ##################################################### -->                   
+<!-- ############### Load Screen with iOS Version Settings Properties ################### -->
+<div class='cpExpandoBox colorLightBg' id="section_loadScreenPropertiesSpecifiedVersion">
+    <a href='#' onClick="fnTogglePropertyBox('box_loadScreenPropertiesSpecifiedVersion');return false;"><img src='../../images/arr_right.gif' alt='arrow' />Load Screen Properties for Specified iOS Version</a>
+    <div id="box_loadScreenPropertiesSpecifiedVersion" style="display:none;">
+        
+        <div style='padding-top:10px;'>
+            
+            <div style='margin-bottom:10px;'>The Properties here are the same as above, however, this section is used for loading a different screen on a different version of iOS. Configure which screens you would like to load. If iPhone 4.0 Inch is blank, it will load the screen specified for the iPhone 3.5 Inch.</div>
+
+</br>
+            <b>Specified iOS Version</b>: (Example: If 7.0 is entered, all older versions will load the following screens)<br/>
+      iOS Versions less than iOS
+      <input name="json_iOSVersionLoad" type="text" id="json_iOSVersionLoad" value="" size="5"> will load the following:
+</br>
+                <table width="752" style='margin-top:10px;'>
+                    <tr>
+                      <td style='vertical-align:top;white-space:nowrap;'>
+                            <b>iPhone 3.5 Inch Screen:</b><br/>
+                      <br/></td>
+                        	<td style='vertical-align:top;white-space:nowrap;'><b> Load Screen (Optional)</b>         
+                            <a href="#" onClick="fnPickScreen('json_iPhone35LoadScreenIDiOSVersion', 'json_iPhone35LoadScreenNicknameiOSVersion');return false;"><img src="../../images/arr_right.gif" alt="arrow"/>Select</a>
+                            <br/>
+                            <input type="text" name="json_iPhone35LoadScreenNicknameiOSVersion" id="json_iPhone35LoadScreenNicknameiOSVersion" value="" style="width:225px;">
+                            <input type="hidden" name="json_iPhone35LoadScreenIDiOSVersion" id="json_iPhone35LoadScreenIDiOSVersion" value="">
+                
+                      	</td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b>Screen Transition Type</b><br/>
+                            <select name="json_iPhone35LoadScreenTransitionTypeiOSVersion" id="json_iPhone35LoadScreenTransitionTypeiOSVersion" style="width:225px;">
+                                <option value="">Default transition</option>
+                                <option value="fade">Fade</option>
+                                <option value="flip">Flip</option>
+                                <option value="curl">Curl</option>
+                                <option value="grow">Grow</option>
+                                <option value="slideUp">Slide Up</option>
+                                <option value="slideDown">Slide Down</option>
+                            </select>
+                            		</p>
+                            </td>
+                  <tr>
+                            <td style='vertical-align:top;white-space:nowrap;'>
+                                <p><b>iPhone 4.0 Inch Screen:</b></p>
+                                <p>
+                                </p>
+                    </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b> Load Screen (Optional)</b>         
+                                    <a href="#" onClick="fnPickScreen('json_iPhone40LoadScreenIDiOSVersion', 'json_iPhone40LoadScreenNicknameiOSVersion');return false;"><img src="../../images/arr_right.gif" alt="arrow"/>Select</a>
+                                <br/>
+                                <input type="text" name="json_iPhone40LoadScreenNicknameiOSVersion" id="json_iPhone40LoadScreenNicknameiOSVersion" value="" style="width:225px;">
+                                <input type="hidden" name="json_iPhone40LoadScreenIDiOSVersion" id="json_iPhone40LoadScreenIDiOSVersion" value="">
+                            </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b>Screen Transition Type</b><br/>
+                                <select name="json_iPhone40LoadScreenTransitionTypeiOSVersion" id="json_iPhone40LoadScreenTransitionTypeiOSVersion" style="width:225px;">
+                                    <option value="">Default transition</option>
+                                    <option value="fade">Fade</option>
+                                    <option value="flip">Flip</option>
+                                    <option value="curl">Curl</option>
+                                    <option value="grow">Grow</option>
+                                    <option value="slideUp">Slide Up</option>
+                                    <option value="slideDown">Slide Down</option>
+                                </select>
+                                    </p>
+                            </td>
+                  </tr>
+                            <td style='vertical-align:top;white-space:nowrap;'>
+                    
+                                <b>iPad Screen</b>:<br/>
+                              </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b> Load Screen (Optional)</b>         
+                                    <a href="#" onClick="fnPickScreen('json_iPadLoadScreenIDiOSVersion', 'json_iPadLoadScreenNicknameiOSVersion');return false;"><img src="../../images/arr_right.gif" alt="arrow"/>Select</a>
+                                <br/>
+                                <input type="text" name="json_iPadLoadScreenNicknameiOSVersion" id="json_iPadLoadScreenNicknameiOSVersion" value="" style="width:225px;">
+                                <input type="hidden" name="json_iPadLoadScreenIDiOSVersion" id="json_iPadLoadScreenIDiOSVersion" value="">
+                            </td>
+                            <td style='vertical-align:top;white-space:nowrap;'><b>Screen Transition Type</b><br/>
+                                <select name="json_iPadLoadScreenTransitionTypeiOSVersion" id="json_iPadLoadScreenTransitionType" style="width:225px;">
+                                    <option value="">Default transition</option>
+                                    <option value="fade">Fade</option>
+                                    <option value="flip">Flip</option>
+                                    <option value="curl">Curl</option>
+                                    <option value="grow">Grow</option>
+                                    <option value="slideUp">Slide Up</option>
+                                    <option value="slideDown">Slide Down</option>
+                                </select>
+                                    </p>
+                       		  </td>
+                
+          </table>
+      </div>
+        <div class='boxButton'>
+            <input type='button' title="save" value="save" class="buttonSubmit" onClick="saveJSONProperties('saveResult_loadScreenPropertiesSpecifiedVersion');return false;">
+            <div id="saveResult_loadScreenPropertiesSpecifiedVersion" class="submit_working">&nbsp;</div>
+        </div>
+  </div>    
+</div>
+<!-- ############### end Load Screen with iOS Version Settings Properties ############### -->
+<!-- ##################################################### --> 
