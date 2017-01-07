@@ -11,6 +11,7 @@ Version History:
 v1.0-Initial Release of Plugin
 v1.1-Fixed problem loading screens on BT3.0 Core
 	-Fixed a typo in the control panel
+v1.2-Compatibility with BT4.0 and iOS 10
 
 iOS Project
 ------------------------

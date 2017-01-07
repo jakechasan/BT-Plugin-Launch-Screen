@@ -8,7 +8,7 @@ supportedDevices: ios
 
 //author info
 authorName: Jake Chasan
-authorEmail: jappdesign@icloud.com
+authorEmail: support@jakechasanapps.com
 authorBuzztouchURL: https://www.buzztouch.com/Jake Chasan
 authorWebsiteURL: http://www.jakechasan.com
 authorTwitterURL: http://twitter.com/jakechasan
@@ -17,8 +17,8 @@ authorLinkedInURL:
 authorYouTubeURL: 
 
 //version info
-versionNumber: 1.1
-versionString: v1.1
+versionNumber: 1.2
+versionString: v1.2
 updateURL: https://www.buzztouch.com/plugins/update.php?pid=8901C4D9F816959026BE5D9
 downloadURL: https://www.buzztouch.com/plugins/download.php?pid=8901C4D9F816959026BE5D9
 
