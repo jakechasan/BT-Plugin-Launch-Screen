@@ -1,6 +1,6 @@
 /*
  *	Copyright 2013-2017 Jake Chasan
- *  Current Revision January 2017, v1.2
+ *  Current Revision January 2017, v2.0
  *
  *	All rights reserved.
  *
@@ -30,7 +30,6 @@
  *	ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
  *	OF SUCH DAMAGE.
  */
-
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
